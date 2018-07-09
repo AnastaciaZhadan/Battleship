@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ShipPlacementFragment"
+    android:id="@+id/settShipsFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/battlefieldTableLayout"
+        android:background="@android:color/white">
+
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="15px"
+        android:paddingBottom="15px"
+        android:id="@+id/shipPanel"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <ImageView
+            android:layout_width="224dp"
+            android:layout_height="41dp"
+            android:id="@+id/horizontalImageView"
+            android:src="@drawable/battleship"
+            android:padding="2dp" />
+
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="96dp"
+            android:id="@+id/verticalImageView"
+            android:src="@drawable/battleship"
+            android:rotation="90"
+            android:padding="2dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

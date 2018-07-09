@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Battleship</string>
+
+    <string name="x_axis">x</string>
+    <string name="y_axis">y</string>
+
+    <string name="horizontal_view">horizontal_view</string>
+    <string name="vertical_view">vertical_view</string>
+    <string name="cell_state">cell_state</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
